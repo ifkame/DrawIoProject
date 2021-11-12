@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T01:06:45.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.3" etag="HRS3rqyn1P2hA5E7h_lW" type="github"><diagram id="kwU1YeQqBs1jz23uGjtF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-12T01:32:35.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="KrsE6TrjbWFRjtY0OZRt" version="15.7.3" type="github">
+  <diagram id="kwU1YeQqBs1jz23uGjtF" name="ページ1">
+    <mxGraphModel dx="1736" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ooqM9sPuauhWhxl2Y_vB-14" value="AWS Cloud" style="swimlane;align=left;startSize=40;swimlaneLine=0;spacingRight=0;spacing=0;spacingLeft=50;fontSize=20;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1080" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ooqM9sPuauhWhxl2Y_vB-16" value="Region" style="swimlane;align=left;startSize=40;swimlaneLine=0;spacingRight=0;spacing=0;spacingLeft=50;fontSize=20;labelBackgroundColor=none;fillColor=none;dashed=1;" vertex="1" parent="ooqM9sPuauhWhxl2Y_vB-14">
+          <mxGeometry x="40" y="40" width="1000" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ooqM9sPuauhWhxl2Y_vB-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAABU0lEQVRYCWNIWX3pv9/8M4MS/////z+DQd/h/0J1uwYlHnUgpTEzGoIDEoLLzj39//D9t/++807TPGORHMX2046D9IDB1usvB58DQVF25P67/z9+/x2cIQhyIChqQY6kNH0Rox8UVSQX1CAHUgOYTzpK0JNkO5DcEFRs2/f/0vNP/7PXXyHoOFAI09WBpDqOrg4kx3F0cyC5jqObA2OWXQAX7CCHgiwlBdMtDXbuvwvOHKQ6km4OBIUaOY6kqwPJcSTZDgSVZaACmxy85/YboqObbAd++P4bXN2BCmxyMMiRxHQ1yHYguTUJKTkYpHbUgaSGGLr60RBEDxFS+aMhSGqIoasfDUH0ECGVPxqCpIYYunqiQ1Cj6wC8zgU1FJDr4qbdt0hqhKI7Ah+faAdKNu3B2XIhpvuIzxH45Ih2ID5DaCk36kBKQ3c0BKkSgqBgHMwAAOX7cepsJ8LLAAAAAElFTkSuQmCC;" vertex="1" parent="ooqM9sPuauhWhxl2Y_vB-16">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ooqM9sPuauhWhxl2Y_vB-19" value="Availability Zone us-west-2a" style="swimlane;align=center;startSize=40;swimlaneLine=0;spacingRight=0;spacing=0;spacingLeft=0;fontSize=20;labelBackgroundColor=none;fillColor=none;dashed=1;strokeColor=default;" vertex="1" parent="ooqM9sPuauhWhxl2Y_vB-16">
+          <mxGeometry x="40" y="40" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ooqM9sPuauhWhxl2Y_vB-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACrklEQVRYCe2WwUvUQRTH/WO6dRA6CEGYYAQrBB5iL+plvVSH8iB2CA+BEBgdyoN2iL2IhwVBCQoigsSD0kE8GEEkCIWgdKgudnryGfz+GIbfb3bXiVpoHsy++c3Me/Od73vzZvum7j+0scl7PdnMzPqGanW70D/Yky0DTI1MZjAzmMpAqn3OwcxgKgOp9m1zcGzyrn389Jl1Tk5Oftvjp8/ds4j++u3QLg+PFs8ka2kCdnHgmn3ZP7ClF8tGf6W1JldOr66/KtbKxtcsir7FM7OPbHbuiQG0cWfa3rzbcI7pM4awBqc36g33zQ99xrSG9c8Wm26ePydXa3U3h28fUNjHIAowNLg+Ou42YTPmfvz8ZWKBzWCUJtCsg3XYay63XP/SlZEoKH/PjgACinCymVgQQMABCKf0/cbYzu6evXz91s3D6tHxd3coQg27PpiyfluAOjWbAIpvRABvTz1w34RMzMEefZhCCKk2Z4zDkpeIwGs+1KypDDFhITy+E8YQkh5nWiNmAUpD5uYXivCGG/MtG+Vr2Rr8VALEgJBsfdgpwOgW+qC5OOSiQo0dfWzfb24X7BFSwAuIouGPaU66LUASHxYlMAc4v5QQUkSXBef0EV0WxnQ4N3H2o5IlQKFmWZRBDAgjp+/m9oUb6Ru28BWyqflQdwQwNPqb3/8MIKEnt2nkcFUeRgGSxLEbdl4meRoVZpWpqn2iAMk5TscpearOC6jKjgcA5vTSlK2LApSB6hllI5VVmMMHZYhKwC3mW3uFuiOAGBEWHKnkoGGWskM+KWS+JnwUYxqliVqJcFD9SUBTJUJg+u4YoAwAyql5Y7sVQPrPnnzGdNcAfWfkqFiCSd1KacZIj5sTtyoZ8v2V9ZMAljn802MZYCqjmcHMYCoDqfY5B/8PBolzL8spxbD/ZHxUeXIAAAAASUVORK5CYII=;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
