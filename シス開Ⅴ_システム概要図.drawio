@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T01:34:45.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="j86acfQqBdD-0rDdI3_T" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T01:39:48.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="1uLmzzrfhHi-pS2oOoTw" version="18.1.2" type="github">
   <diagram id="8dULhvoRKQdAQdLDypAU" name="ページ1">
     <mxGraphModel dx="1447" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -118,6 +118,17 @@
         </mxCell>
         <mxCell id="RUFT6jODdSEgMMmCmcuu-40" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;fontSize=18;" vertex="1" parent="RUFT6jODdSEgMMmCmcuu-39">
           <mxGeometry x="38.5" y="40" width="123" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RUFT6jODdSEgMMmCmcuu-43" value="FCM" style="swimlane;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="370" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RUFT6jODdSEgMMmCmcuu-44" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=18;" vertex="1" parent="RUFT6jODdSEgMMmCmcuu-43">
+          <mxGeometry x="44.25" y="80" width="111.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUFT6jODdSEgMMmCmcuu-45" value="Notification&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="RUFT6jODdSEgMMmCmcuu-44">
+          <mxGeometry width="32.4" height="45" relative="1" as="geometry">
+            <mxPoint x="5" y="7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
